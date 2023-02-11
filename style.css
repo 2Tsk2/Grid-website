@@ -203,8 +203,8 @@ h3 {
 .social-menu ul li a{
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 10%;
   background-color: #64c99d;
   text-align: center;
@@ -216,12 +216,11 @@ h3 {
   transform: translate(0, -10%);
   box-shadow: 0 10px rgba(0,0,0,.5);
 }
-/*add button click effect modern on class social menu*/
 .social-menu{
   transform: scale(1);
 }
 .social-menu:hover{
-  transform: scale(1.1);
+  transform: scale(1);
   transition: .2s;
 }
 
@@ -232,19 +231,26 @@ h3 {
   background-color: rgba(100, 254, 136, 0.829);
   transition: 
       background-color 0.3s ease-in-out,
-    transform 0.3s ease-in-out;
+    transform 0.2s ease-in-out;
 }
 .social-menu ul li:nth-child(2) a:hover{
-  background-color: #e8798e;
+  background-color: rgba(100, 254, 136, 0.829);
   transition: 
       background-color 0.3s ease-in-out,
-    transform 0.3s ease-in-out;
+    transform 0.2s ease-in-out;
 }
 .social-menu ul li:nth-child(3) a:hover{
-  background-color: #77b5d6;
+  background-color: rgba(100, 254, 136, 0.829);
 }
 .social-menu ul li:nth-child(4) a:hover{
-  background-color: #82e871;
+  background-color: rgba(100, 254, 136, 0.829);
+}
+
+.social-menu i {
+  position: relative;
+  top: 15%;
+  transform: scale(1.5);
+  transition: .3s;
 }
 
 .item {
