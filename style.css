@@ -280,6 +280,11 @@ h3 {
       "five "
       "four four";
   }
+  .item{
+    padding: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 38em) {
