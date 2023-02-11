@@ -203,23 +203,28 @@ h3 {
   box-shadow: 0 10px rgba(0,0,0,.5);
 }
 /*add button click effect modern on class social menu*/
-
+.social-menu{
+  transform: scale(1);
+}
 .social-menu:hover{
   transform: scale(1.1);
-  transition: .3s;
+  transition: .2s;
 }
-.social-menu:active{
-/*add modern click effects on active class social menu*/
- 
-}
+
 
 
 
 .social-menu ul li:nth-child(1) a:hover{
   background-color: rgba(255, 253, 108, 0.829);
+  transition: 
+      background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
 }
 .social-menu ul li:nth-child(2) a:hover{
   background-color: #e8798e;
+  transition: 
+      background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
 }
 .social-menu ul li:nth-child(3) a:hover{
   background-color: #77b5d6;
