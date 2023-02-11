@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 :root {
-  --clr-primary-400: 142 15% 52%;
-  --clr-secondary-400: 217 19% 35%;
-  --clr-secondary-500: 219 29% 14%;
-  --clr-neutral-100: 0 0% 100%;
-  --clr-neutral-200: 20 46% 95%;
-  --clr-neutral-300: 0 0% 81%;
+  --clr-primary-400: 112 15% 52%;
+  --clr-secondary-400: 150 29% 35%;
+  --clr-secondary-500: 0 2% 14%;
+  --clr-neutral-100: 10 0% 100%;
+  --clr-neutral-200: 10 4% 95%;
+  --clr-neutral-300: 30 100% 81%;
 
   --ff-primary: "Barlow Semi Condensed", sans-serif;
 
@@ -260,7 +260,6 @@ h3 {
 }
 .item:nth-child(2) {
   grid-area: two;
-  width: 40vw;
 }
 .item:nth-child(3) {
   grid-area: three;
@@ -276,8 +275,9 @@ h3 {
   .item-grid {
     grid-template-areas:
       "one one"
-      "two three"
-      "five five"
+      "two "
+      "three"
+      "five "
       "four four";
   }
 }
