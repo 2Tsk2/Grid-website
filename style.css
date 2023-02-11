@@ -139,7 +139,13 @@ h3 {
 .border-primary-400 {
   border: 2px solid #a775f1;
 }
-
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+}
 /* components */
 .item-grid {
   display: grid;
