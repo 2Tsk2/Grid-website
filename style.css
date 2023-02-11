@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 :root {
-  --clr-primary-400: 100 15% 52%;
+  --clr-primary-400: 14 79% 85%;
   --clr-secondary-400: 150 29% 35%;
   --clr-secondary-500: 0 2% 14%;
-  --clr-neutral-100: 10 0% 100%;
-  --clr-neutral-200: 10 4% 95%;
+  --clr-neutral-100: 160 50% 80%;
+  --clr-neutral-200: 130 100% 90%;
   --clr-neutral-300: 30 100% 81%;
 
   --ff-primary: "Barlow Semi Condensed", sans-serif;
@@ -35,7 +35,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+  margin: 0%;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -54,7 +54,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  place-content: center;
 }
 
 /* A elements that don't have a class get default styles */
@@ -93,7 +92,6 @@ select {
 body {
   display: grid;
   min-height: 100vh;
-
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
 
@@ -137,15 +135,25 @@ h3 {
   color: hsl(var(--clr-secondary-400));
 }
 .border-primary-400 {
-  border: 2px solid #a775f1;
+  border: 2px solid #4d218f;
 }
 .header{
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #fff;
+
 }
+.header h1{
+  margin-top: 10px;
+  background-color: #64c99d;
+  padding: 1.3rem;
+  border-radius: 7px;
+  box-shadow: 5px 5px  rgba(0, 0, 0, 0.326);
+  font-size: 25px ;
+ 
+}
+
 /* components */
 .item-grid {
   display: grid;
@@ -160,7 +168,7 @@ h3 {
 
   padding-block: 2rem;
   width: min(95%, 70rem);
-  margin-inline: auto;
+  margin: 0 auto;
 }
 .social-menu{
   justify-content: center;
@@ -198,7 +206,7 @@ h3 {
   width: 60px;
   height: 60px;
   border-radius: 10%;
-  background-color: #dbb0b0;
+  background-color: #64c99d;
   text-align: center;
   transition: .6s;
   box-shadow: 0 5px rgba(0,0,0,.5);
@@ -221,7 +229,7 @@ h3 {
 
 
 .social-menu ul li:nth-child(1) a:hover{
-  background-color: rgba(255, 253, 108, 0.829);
+  background-color: rgba(100, 254, 136, 0.829);
   transition: 
       background-color 0.3s ease-in-out,
     transform 0.3s ease-in-out;
@@ -257,6 +265,8 @@ h3 {
 
 .item:nth-child(1) {
   grid-area: one;
+  background-color: #3d98408b;
+  color: #000;
 }
 .item:nth-child(2) {
   grid-area: two;
